@@ -25,7 +25,7 @@ function $getIds (callback) {
 // 通过ids获取详细信息
 function $getIdsDetails (callback) {
   return $getIds(data => {
-    const idsDetail = data.ids.split(',');
+    const idsDetail = data? data.ids.split(','):'';
     User.find({ uid: { $in: idsDetail } }).then(_response => {
       return callback(_response);
     });

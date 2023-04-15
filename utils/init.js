@@ -7,7 +7,7 @@ const { decode } = require('./transform');
 
 function initIds () {
   return $getIds(data => {
-    const Ids = data.ids;
+    const Ids = data?data.ids: '';
     decode(Ids, ids);
   });
 }

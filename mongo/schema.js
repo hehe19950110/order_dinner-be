@@ -5,7 +5,7 @@ const dbUrl = require('../config.json').db.url;
  */
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const idsDB = mongoose.createConnection(dbUrl, { useMongoClient: true });
+const idsDB = mongoose.createConnection(dbUrl);
 
 const idsSchema = new Schema({
   ids: Object,

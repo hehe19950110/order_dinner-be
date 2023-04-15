@@ -10,15 +10,15 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",
+    "hummus": "^1.0.115",
     "jade": "~1.11.0",
     "moment": "^2.20.1",
-    "mongoose": "^4.13.7",
+    "mongoose": "^7.0.3",
     "morgan": "~1.9.0",
     "node-schedule": "^1.2.5",
     "nodemailer": "^4.4.1",
     "nodemon": "^1.13.3",
-    "serve-favicon": "~2.4.5",
-    "hummus": "1.0.83"
+    "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
