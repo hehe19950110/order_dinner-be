@@ -1,7 +1,4 @@
-# Order-Dinner-Iplements-BE
-
-Created By ChrisWen 17/12/19
----
+# Order-Dinner-BE
 
 ## 数据库
 + db: orderDinnerDB
